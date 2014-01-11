@@ -1,0 +1,14 @@
+Changes (since 0.99.1-)
+  - Miner management (http & ssh) is firewalled to a configured list
+of trusted addresses. Customer should specify the (space separated)
+list of addresses from which device is allowed to be accessed via HTTP
+and SSH.
+  - Initial splash screen on first use where the user is asked to
+specify new administrator user name and password and also a list of
+trusted addresses allowed to manage the miner.
+  - List of trusted management addresses added in network screen.
+  - On the "Mining" page there is an analogous setting which allows to
+specify from which addresses miner's API interface can be accessed.
+  - Added support for the BFGMiner, selectable from the "Mining" page.
+  - Added the ability to change administrator user name when changing password.
+
