@@ -1,3 +1,7 @@
+kncminer-0.99.2-E.bin     November units only (Ericsson DCDC modules)
+kncminer-0.99.2-tune.bin  October units only (GE DCDC modules)
+
+
 Changes (since 0.99.1-)
   - Miner management (http & ssh) is firewalled to a configured list
 of trusted addresses. Customer should specify the (space separated)
@@ -11,4 +15,3 @@ trusted addresses allowed to manage the miner.
 specify from which addresses miner's API interface can be accessed.
   - Added support for the BFGMiner, selectable from the "Mining" page.
   - Added the ability to change administrator user name when changing password.
-
