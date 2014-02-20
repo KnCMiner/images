@@ -1,0 +1,9 @@
+Changelog (since 0.99.2):
+  - This is the first unified firmware; works on any device - October and November. Anyway, there is a limitation: it does not support the device with mixed boards (October + November);
+  - Adjustable per-die PLL frequency (on the "Advanced" page in web interface);
+  - Fixed completely "false hardware errors" bug. Now most devices should work with HW error rate much less then 1%;
+  - Ability to choose between Failover and Load-balancing strategy for multiply pools on the "Mining" page in web interface;
+  - Enhanced "Find my Miner" functionality:
+     -- when "Find my Miner" procedure is engaged from the "Services" page in the web interface, not only the blue LED flashes, but also snmp trap is sent to the configurable list of addresses;
+     -- the same result can be achieved by pressing hardware "reset" button once.
+  - a lot of minor bugfixes.
