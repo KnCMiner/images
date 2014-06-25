@@ -8,4 +8,4 @@ Warning: Images with -E should only be used on November units (Ericsson DCDC mod
 
 .bin files are firmware upgrade files installed via web interface
 
-_SD.zip files are SD card images for full relash. To install these format and SD card in VFAT format and unzip the archive in the root of the SD card, then instert the SD card into the SD card slot of beaglebone black and power on the miner. When the bright led flashes green remote the SD card from beaglebone black SD card slot and powercycle the miner.
+_SD.zip files are SD card images for full relash. To install these format and SD card in VFAT format and unzip the archive in the root of the SD card, then instert the SD card into the SD card slot of beaglebone black and power on the miner. When the bright led flashes green remove the SD card from beaglebone black SD card slot and powercycle the miner.
