@@ -1,0 +1,19 @@
+neptune-rc9:
+  - minor change in cgminer: cleanup statistics a bit
+  - Make sure that after factory reset advanced.conf is recreated with default values
+  - Fix bug: static IP can not be set from web interface
+  - Update asic_cmd to v1.3
+
+neptune-rc8:
+  - Minor fixes in cgminer:
+    -- Change priority of some log messages
+    -- Missing closing zero in api string
+  - Do not run monitordcdc if there is no cgminer.conf
+  - Stop all dcdc before reboot
+  - Improvements in waas and monitordcdc regarding power-cycling ASIC boards
+  - Detect hardware configuration changes during runtime
+      Useful when power-cycling ASIC boards
+  - Button "Factory Defaults" on the Advanced page now works without producing garbage in response
+
+neptune-rc6:
+  Initial public release; shipped with first few Neptune miners.
