@@ -1,3 +1,16 @@
+neptune-1.00:
+  - cgminer v4.4.1-knc3.5: Major rework of cgminer KnC driver:
+      CPU performance improvement and better error handling
+      This also fixes errors while viewing advanced settings page.
+  - Update asic_cmd to v1.6
+  - Print out board temperature, average DC/DC temp and clock rate on Status page
+    for each ASIC board.
+  - Remove checkbox "BFGMiner"
+  - Detect enabled asics dynamically; do not use stats.knc file for that.
+      Get rid of stats.knc file completely
+  - There might be ASIC board plugged into slot 0
+    (LCD screen does not prevent this)
+
 neptune-rc9:
   - minor change in cgminer: cleanup statistics a bit
   - Make sure that after factory reset advanced.conf is recreated with default values
