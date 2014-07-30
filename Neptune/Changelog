@@ -1,3 +1,10 @@
+neptune-1.02:
+  - Correctly create and apply default advanced settings on
+    reset to factory defaults by power button
+  - cgminer v4.4.1-knc3.6: Add API call knc-configure-die for dynamically
+    add/remove dies
+  - Fix problem: cgminer restarts frequently
+
 neptune-1.00:
   - cgminer v4.4.1-knc3.5: Major rework of cgminer KnC driver:
       CPU performance improvement and better error handling
