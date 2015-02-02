@@ -1,3 +1,12 @@
+neptune-1.05:
+  - cgminer core updated to 4.9.0;
+  - cgminer Neptune driver updates:
+    - memory leak fixed;
+    - some logging issues fixed;
+  - knc-asic is updated to v2.5, which includes FPGA update to 5.02;
+  - with knc-asic v2.5 also comes updated waas with support for "OFF" state for dies,
+    so added support for OFF dies.
+
 neptune-1.02:
   - Correctly create and apply default advanced settings on
     reset to factory defaults by power button
