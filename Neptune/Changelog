@@ -1,3 +1,9 @@
+neptune-1.06:
+  - Included BFGMiner (ver. 5.0.0);
+  - CGMiner updated to v4.9.1;
+  - Eliminated another possible source of spurious CGMiner/BFGMiner restarts
+    (monitordcdc: Send "restart die" requests to miner only if die is not OFF)
+
 neptune-1.05:
   - cgminer core updated to 4.9.0;
   - cgminer Neptune driver updates:
